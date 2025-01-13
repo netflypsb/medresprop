@@ -1,0 +1,85 @@
+.proposalResults {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.section h3 {
+  color: #374151;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.section h4 {
+  color: #4b5563;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.methodologyGrid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.budgetTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.budgetTable th,
+.budgetTable td {
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.budgetTable th {
+  background-color: #f3f4f6;
+  font-weight: 500;
+}
+
+.references {
+  list-style-type: none;
+  padding: 0;
+}
+
+.references li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  border-left: 2px solid #e5e7eb;
+}
+
+.printButton {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  .printButton {
+    display: none;
+  }
+} 

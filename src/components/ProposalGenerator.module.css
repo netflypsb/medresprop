@@ -1,0 +1,31 @@
+.container {
+  padding-top: 4rem;
+}
+
+.newProposalButton {
+  position: fixed;
+  top: 5rem;
+  right: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s;
+}
+
+.newProposalButton:hover {
+  background-color: var(--primary-dark);
+}
+
+@media (max-width: 768px) {
+  .newProposalButton {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+    width: calc(100% - 2rem);
+  }
+} 

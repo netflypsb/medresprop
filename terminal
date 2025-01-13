@@ -1,0 +1,7 @@
+npx create-react-app medical-research-app
+cd medical-research-app
+npm install react-router-dom axios @supabase/supabase-js 
+mkdir -p backend/{config,src}
+cd backend
+pip install crewai fastapi uvicorn python-dotenv pyyaml 
+uvicorn src.main:app --reload 
