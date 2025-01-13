@@ -1,0 +1,64 @@
+analyze_topic:
+  description: Analyze research topic and develop research questions and hypotheses
+  expected_output: Detailed research questions and testable hypotheses
+  agent: research_strategist
+
+conduct_literature_review:
+  description: Perform comprehensive literature review and background research
+  expected_output: Systematic literature review with current state of research
+  agent: literature_searcher
+
+design_methodology:
+  description: Design detailed research methodology including study design, population, and analysis
+  expected_output: |
+    Complete methodology including:
+    - Study design
+    - Population and sampling strategy
+    - Data collection methods
+    - Statistical analysis plan
+  agent: methodology_expert
+
+develop_ethics:
+  description: Develop ethical considerations and compliance framework
+  expected_output: |
+    Comprehensive ethics section including:
+    - Patient privacy considerations
+    - Informed consent procedures
+    - Risk mitigation strategies
+    - IRB compliance requirements
+  agent: ethics_advisor
+
+create_timeline_budget:
+  description: Develop project timeline and detailed budget
+  expected_output: |
+    Detailed budget and timeline including:
+    - Personnel costs
+    - Equipment and supplies
+    - Other expenses
+    - Project milestones and deadlines
+  agent: budget_planner
+
+analyze_impact:
+  description: Analyze potential impact and expected outcomes
+  expected_output: |
+    Impact analysis including:
+    - Expected outcomes
+    - Potential benefits to medical field
+    - Clinical implications
+    - Future research directions
+  agent: impact_analyst
+
+write_proposal:
+  description: Write and format complete research proposal
+  expected_output: |
+    Complete proposal including:
+    - Abstract
+    - Introduction
+    - Literature review
+    - Methodology
+    - Ethics
+    - Timeline and budget
+    - Expected outcomes
+    - Impact analysis
+    - References
+  agent: proposal_writer 
